@@ -1,0 +1,13 @@
+
+n=int(input("Enter a number:   "))  
+def printNos(n):
+        #Code here
+        def printNo(i):
+            if(i>n):
+                return
+            else:
+                print(i, end=" ")
+                printNo(i+1)
+        printNo(1)
+
+printNos(n)
