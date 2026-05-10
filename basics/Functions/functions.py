@@ -67,3 +67,81 @@ def modify_number(num):
 my_number = 5
 modify_number(my_number)
 print(my_number)  # Output: 5     number is not modified because it's immutable  
+
+#pass statement
+def my_function():
+    pass  # This function does nothing
+my_function()
+
+#global and local variables
+
+myNum=6
+def myFunction():
+    global myNum
+    print(myNum)
+    myNum += 10  # This is a global variable
+    print("Inside function, myNum =", myNum)
+myFunction()
+print("Outside function, myNum =", myNum)
+
+
+#local & global var with same name
+a = 1  # Global variable
+
+def f():
+    print("f():", a)  # Uses global a
+
+def g():
+    a = 2  # Local shadows global
+    print("g():", a)
+
+def h():
+    global a
+    a = 3  # Modifies global a
+    print("h():", a)
+
+print("global:", a)
+f()
+print("global:", a)
+g()
+print("global:", a)
+h()
+print("global:", a)
+
+
+#non keyword arguments
+def myFun(*argv):
+    for arg in argv:
+        print(arg)
+
+myFun('Hello', 'Welcome', 'to', 'GeeksforGeeks')
+
+#using args to multiple any number of values
+def multiply(*args):
+    res=1
+    for arg in args:
+        res*=arg
+    return res
+print("3 num multiplication:", multiply(5,2,3))
+print("2 num multiplication:", multiply(4,5))
+
+#keyword arguments
+def fun(**kwargs):
+    for k, val in kwargs.items():
+        print(k, "=", val)
+
+fun(s1='Python', s2='is', s3='Awesome')
+
+def introduce(**kwargs):
+    details = []
+    for key,val in kwargs.items():
+        details.append(key+"="+str(val))
+    return ",".join(details)
+print(introduce(name="Alice", age=30, city="New York"))
+
+def student_info(*args, **kwargs):
+    print("Subjects:", args)        # Positional arguments
+    print("Details:", kwargs)       # Keyword arguments
+
+# Passing subjects as *args and details as **kwargs
+student_info("Math", "Science", "English", Name="Alice", Age=20, City="New York")
