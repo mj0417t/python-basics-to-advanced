@@ -64,7 +64,7 @@ def fun(cls):
 @fun
 class Person:
     pass
-print(Person.class_name)  # Output: Person
+#print(Person.class_name)  # Output: Person
 
 #Built in decorator
 class MathOp:
