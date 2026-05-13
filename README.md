@@ -1,2 +1,3 @@
 # python-basics-to-advanced
-python basics
+<li>python basics
+<li>python functions
