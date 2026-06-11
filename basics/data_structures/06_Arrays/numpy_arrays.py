@@ -21,7 +21,7 @@ b=np.array([[0,4,2],
             [5,6,7]
             ])
 print("Shape of arr: ",b.shape)
-print("Rank of arr: ")
+print("Rank of arr: ",b.ndim)
 
 #dtype
 arr1=np.array([2,3,45])
