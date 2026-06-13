@@ -16,5 +16,5 @@ d3={'e': 5,'f':2,'g':5}
 cm2=cm.new_child(d3)  # Add d3 to the front of the ChainMap
 print(cm)
 print(cm2)
-cm2.maps=reversed(cm2.maps)  # Reverse the order of the maps in cm2
+cm2.maps = list(reversed(cm2.maps))  # Reverse the order of the maps in cm2
 print(cm2)
