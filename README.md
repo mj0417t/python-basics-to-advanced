@@ -33,7 +33,7 @@
        </ol>
        </li>
       
-    </ul>
+  </ul>
   <li>python OOP
     <ul>
        <li>classes and objects</li>
