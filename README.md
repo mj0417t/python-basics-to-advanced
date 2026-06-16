@@ -1,4 +1,7 @@
 # python-basics-to-advanced
+<p>folder_name:basics 
+include the following:
+</p>
 <ol>
   <li>python basics
   <li>Namespaces and Scope</li>
@@ -51,5 +54,12 @@
      <li>custom exception</li>
      <li>raise
    </ul>
+  <li>File Handling
+  <ul>
+     <li>os module</li>
+     <li>pathlib module</li>
+     <li>reading, writing, creating json, csv, txf files
+   </ul>
   </ol>
+  
 
