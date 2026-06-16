@@ -45,6 +45,11 @@
        <li>Abstraction</li>
        <li>Iterators</li>
     </ul>
- 
+ <li>Exceptions
+   <ul>
+     <li>built-in exceptions</li>
+     <li>custom exception</li>
+     <li>raise
+   </ul>
   </ol>
 
