@@ -1,5 +1,4 @@
 # python-basics-to-advanced
-<h4>folder_name:basics</h4>
 
 <ol>
   <li>python basics
