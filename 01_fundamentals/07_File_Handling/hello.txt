@@ -1,2 +1,0 @@
-
- Python is best for DSA

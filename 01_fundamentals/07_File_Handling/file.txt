@@ -1,4 +1,0 @@
-Created using write mode.
-Second line.
-
-This is a new line.
