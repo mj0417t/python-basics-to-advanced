@@ -1,7 +1,6 @@
 # python-basics-to-advanced
-<p>folder_name:basics 
-include the following:
-</p>
+<h4>folder_name:basics</h4>
+
 <ol>
   <li>python basics
   <li>Namespaces and Scope</li>
