@@ -58,6 +58,13 @@
      <li>pathlib module</li>
      <li>reading, writing, creating json, csv, txf files
    </ul>
+    <li>Database Handling
+  <ul>
+     <li>MongoDB</li>
+     <li>MySQL</li>
+   </ul>
+    <li>Packages
+    <li>Modules
   </ol>
   
 
